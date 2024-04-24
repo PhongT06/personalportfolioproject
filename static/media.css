@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+
+    header {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .side-info {
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .side-image img {
+        max-width: 300px;
+        height: auto;
+    }
+
+    .contact-form, .contact-info {
+        height: auto;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
